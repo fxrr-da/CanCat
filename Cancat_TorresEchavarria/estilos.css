@@ -1,0 +1,165 @@
+body{
+    background-image: url(fondo1.jpg);
+   
+}
+.nav-link{
+    color: #4CDA00; 
+}
+.bg{
+    background-color: white;
+    border-radius: 1rem;
+}
+.nav-item{
+    color: #4CDA00 !important;
+    font-family: holyfat;
+    font-size: 1.9em;
+}
+.nav-item:hover{
+    background-color: #4CDA00;
+    color: white;
+    border-radius: 0.5rem;
+}
+.head{
+    padding: 40px;
+}
+.tres{
+    display: flex;
+    flex-direction: row;
+}
+.text-objetivo{
+    font-family: holyfat;
+    color: #4CDA00;    
+}
+.auxilios h1{
+    color: #4CDA00; 
+    font-size: 3em;
+    font-size: bold;
+}
+.auxilios h5{
+color:#4CDA00; 
+font-size: 1.5em;
+}
+.auxilios p{
+   font-size: 1.5em; 
+   color: #42D2E2; 
+   width: 20rem;
+}
+.auxilios{
+    display: flex;
+    flex-direction: column;
+    /* width: 40rem; */
+}
+.parrafo{
+color: white; 
+background-color: #4cda0095; 
+width: 100%;
+ border-radius: 5px; 
+padding:15px ; 
+
+
+}
+.cuadro2{
+    
+    background-color: rgb(202, 223, 237);
+    opacity: 0.7;
+    border-radius: 2rem;
+}
+.cuadro1{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 2rem;
+   
+}
+.boton h1{
+    text-align: center;
+    font-family: holyfat;
+   color: white;
+   font-size: 3rem;
+}
+@font-face {
+    font-family: holyfat;
+    src: url(Holyfat.ttf);
+}
+.boton {
+    background-color: #4CDA00;
+    /* width: 20rem;
+    height: 5rem; */
+    border-radius:80%;
+    
+}
+.cuadro h1{
+    color: #4CDA00;
+}
+.text-temas{
+  display: flex;
+  margin-right: 10rem;
+ 
+}
+.temas{
+    display: flex;
+    justify-content: center;
+}
+.objetivos{
+    display: flex;
+    justify-content: center;
+}
+.temas1 h1{
+    color: #4CDA00;
+     font-family: holyfat; 
+     margin-left: 100px;
+     display: flex;
+     justify-content: center;
+}
+.item{
+    color: white; 
+    background-color: #4cda0091; 
+    width: 100%; 
+    border-radius: 5px;
+     padding:15px;
+}
+.objetivos{
+    display: flex;
+    justify-content: center;
+}
+.video{
+display: flex;
+justify-content: center;
+}
+.ben{
+    color: #4CDA00;
+    font-family: holyfat; 
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.ben2{
+    margin-top: 5rem;
+}
+
+
+ .ben2 .beneficios img:hover{   
+    border-radius: 6rem;
+    cursor: pointer;    
+    filter:  drop-shadow(0.1rem 0.1rem rgba(255, 255, 255, 0.609)) brightness(2.09);
+}
+
+.foot img{
+    width: 6rem;
+    margin-left: 3rem;
+}
+.ic{
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+}
+footer{
+display: flex;
+justify-content: center;
+background-color: #f9f9f9 !important;
+opacity: 65%;
+margin-top:5rem ;
+}
+.foot{
+    padding: 2rem;
+}
